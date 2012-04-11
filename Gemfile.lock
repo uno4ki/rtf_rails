@@ -93,4 +93,4 @@ DEPENDENCIES
   jeweler (~> 1.8.3)
   rails (>= 3.0.0)
   rdoc (~> 3.12)
-  rtf (~> 0.3.3)
+  rtf (>= 0.3.3)

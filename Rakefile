@@ -24,7 +24,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = "alex@monsterlabs.com.mx"
   gem.authors = ["Alejandro Juarez Robles"]
   gem.add_dependency('rails', '>=3.0.0')
-  gem.add_dependency('rtf', '~> 0.3.3')
+  gem.add_dependency('rtf', '>=0.3.3')
 end
 Jeweler::RubygemsDotOrgTasks.new
 
