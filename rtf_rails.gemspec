@@ -45,16 +45,12 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_development_dependency(%q<bundler>, ["~> 1.1.rc"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_runtime_dependency(%q<rails>, [">= 3.0.0"])
-      s.add_runtime_dependency(%q<rtf>, [">= 0.3.3"])
     else
       s.add_dependency(%q<rails>, [">= 3.0.0"])
       s.add_dependency(%q<rtf>, [">= 0.3.3"])
       s.add_dependency(%q<rdoc>, ["~> 3.12"])
       s.add_dependency(%q<bundler>, ["~> 1.1.rc"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-      s.add_dependency(%q<rails>, [">= 3.0.0"])
-      s.add_dependency(%q<rtf>, [">= 0.3.3"])
     end
   else
     s.add_dependency(%q<rails>, [">= 3.0.0"])
@@ -62,8 +58,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rdoc>, ["~> 3.12"])
     s.add_dependency(%q<bundler>, ["~> 1.1.rc"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.3"])
-    s.add_dependency(%q<rails>, [">= 3.0.0"])
-    s.add_dependency(%q<rtf>, [">= 0.3.3"])
   end
 end
 
